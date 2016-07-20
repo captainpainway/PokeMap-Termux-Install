@@ -7,7 +7,7 @@ To install:
 * ``apt update && apt upgrade``
 * ``apt install git``
 * ``$ git clone https://github.com/captainpainway/PokeMap-Termux-Install.git && cd PokeMap-Termux-Install``
-* Run ./install.sh
+* Run ``./install.sh``
 
 This should install all of the required packages for a fresh install of Termux to run PokemonGo-Maps.
 
