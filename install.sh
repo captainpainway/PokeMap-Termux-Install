@@ -1,6 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
 apt update && apt upgrade
-apt install git -y
 apt install python2 -y
 apt install gcc -y
 pip2 install flask
