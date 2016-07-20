@@ -4,6 +4,7 @@ Building off the base PokemonGo-Map from [AHAAAAAAA](https://github.com/AHAAAAAA
 
 To install:
 * First, install Termux from Google Play. https://play.google.com/store/apps/details?id=com.termux&hl=en
+* ``apt update && apt upgrade``
 * ``apt install git``
 * ``$ git clone https://github.com/captainpainway/PokeMap-Termux-Install.git && cd PokeMap-Termux-Install``
 * Run ./install.sh
