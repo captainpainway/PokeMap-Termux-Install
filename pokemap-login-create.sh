@@ -35,6 +35,7 @@ do
     esac
 done
 echo "#!/data/data/com.termux/files/usr/bin/bash" > pokemap-login.sh
+echo "cd /data/data/com.termux/files/home/PokeMap-Termux-Install/PokemonGo-Map" >> pokemap-login.sh
 echo "python2 example.py -a ptc -u $trainer_id -p $password -l \"$location\" -st 5 $update $pokestops $pokegyms" >> pokemap-login.sh
 chmod +x pokemap-login.sh
 echo "Congrats! You're finished setting up your PokemonGo-Map!"
