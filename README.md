@@ -15,7 +15,11 @@ This should install all of the required packages for a fresh install of Termux t
 
 Currently only using Pokemon Trainer Club logins.
 
-PokeMap-Termux-Install also includes an interface to enter your login credentials, desired location, and options for automatic refresh, PokeStops, and Pokemon Gyms. This interface runs automatically after install, and can be invoked by typing "pokemap" in the terminal.
+PokeMap-Termux-Install also includes an interface to enter your login credentials, desired location, and options for automatic refresh, PokeStops, and Pokemon Gyms. This interface runs automatically after install, and can be invoked by typing "pokecreate" in the terminal.
+
+Commands:
+* pokemap -- view the most recently made PokemonGo-Map without having to login again
+* pokecreate -- create a new pokemon map (requires login)
 
 View the map in your mobile browser at http://localhost:5000
 
