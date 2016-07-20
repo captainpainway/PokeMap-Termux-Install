@@ -6,5 +6,7 @@ git clone https://github.com/AHAAAAAAA/PokemonGo-Map.git
 cd PokemonGo-Map
 pip2 install -r requirements.txt
 rm -r /data/data/com.termux/files/usr/bin/pokemap
-ln -s /data/data/com.termux/files/home/PokeMap-Termux-Install/pokemap-login-create.sh /data/data/com.termux/files/usr/bin/pokemap
-pokemap
+ln -s /data/data/com.termux/files/home/PokeMap-Termux-Install/pokemap-login-create.sh /data/data/com.termux/files/usr/bin/pokecreate
+touch pokemap-login.sh
+ln -s /data/data/com.termux/files/home/PokeMap-Termux-Install/PokemonGo-Map/pokemap-login.sh /data/data/com.termux/files/usr/bin/pokemap
+pokecreate
