@@ -9,6 +9,8 @@ To install:
 * ``$ git clone https://github.com/captainpainway/PokeMap-Termux-Install.git && cd PokeMap-Termux-Install``
 * ``$ ./install.sh``
 
+Please install in the default directory for the time being.
+
 This should install all of the required packages for a fresh install of Termux to run PokemonGo-Maps.
 
 PokeMap-Termux-Install also includes an interface to enter your login credentials, desired location, and options for automatic refresh, PokeStops, and Pokemon Gyms. This interface runs automatically after install, and can be invoked by typing "pokemap" in the terminal.
