@@ -4,6 +4,7 @@ apt install gcc -y
 pip2 install flask
 cd PokemonGo-Map
 pip2 install --upgrade -r requirements.txt
+git clone https://github.com/AHAAAAAAA/PokemonGo-Map.git
 rm -r /data/data/com.termux/files/usr/bin/pokemap
-ln -s /data/data/com.termux/files/home/PokeMap-Termux-Install/PokemonGo-Map/pokemap-login-create.sh /data/data/com.termux/files/usr/bin/pokemap
+ln -s /data/data/com.termux/files/home/PokeMap-Termux-Install/pokemap-login-create.sh /data/data/com.termux/files/usr/bin/pokemap
 pokemap
